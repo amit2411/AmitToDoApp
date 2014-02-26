@@ -1,0 +1,17 @@
+
+.red{
+color: red;
+text-decoration: line-through;
+}
+
+#mydiv, .selectall{
+margin: 0 30px;
+}
+
+#mydiv div  {
+padding: 5px 0; 
+margin: 15px 0;
+border-bottom-style:solid;
+border-bottom-color:black;
+}
+

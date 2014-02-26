@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title> Amit's ToDo App </title>
+		<link href="app.css" rel="stylesheet">
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+		<script src="jquery.min.js"></script>
+		
+		<link rel="shortcut icon" href="A.jpg" />
+		
+	</head>
+
+	<body>
+
+		<div>
+			<h2 >My ToDo App </h2>
+			<input id="todo" type = "text" placeholder= "What you want to do?" style= "width:500px" value="" > </input>
+			<hr align="left" style="height:7px; width:900px; color:#333; background-color:#333; " />
+		</div>	
+		
+		<div>
+			<ul class="nav nav-pills">
+			  <li id="a"><a href="#">All</a></li>
+			  <li id="completed"><a href="#">Completed</a></li>
+			  <li id="pending"><a href="#">Pending</a></li>
+			</ul>
+		</div>
+		
+		<div class="selectall"> 
+			<input type="checkbox" id="all" > Select/deselect All</input>
+		</div>
+		
+		<br/>
+		<br/>
+
+		<div id="mydiv"></div>
+		
+		<script src="app.js"></script>
+		
+		
+	</body>
+</html>
